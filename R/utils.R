@@ -73,7 +73,7 @@ require_AmpGramModel <- function() {
       )
     } 
   } else {
-    if (!is_AmpGramModel_installed() {
+    if (!is_AmpGramModel_installed()) {
         message("To be able to use AmpGram properly, you should have installed 'AmpGramModel' with 'devtools::install_github('michbur/AmpGramModel').")
     }
   }
